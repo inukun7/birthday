@@ -1,0 +1,25 @@
+.change-date {
+    grid-row: 2/3;
+    grid-column: 4/5;
+
+    font-size: 24px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+
+    transform: rotate(-77deg);
+    align-self: start;
+    justify-self: start;
+
+    font-family: "Roboto Condensed";
+
+    &:focus {
+        outline: none;
+    }
+
+    i {
+        margin-right: 10 px;
+    }
+}
